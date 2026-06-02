@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .winner {
+        color: green;
+      }
+
+      .loser {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="ping-pong-game">
+      <div id="game-header">
+        <img
+          src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80"
+          alt=""
+        />
+      </div>
+      <p id="game-title">Ping Pong Score Keeper</p>
+      <div id="game-body">
+        <h1>
+          <span id="p1Display">0</span> to <span id="p2Display">0</span>
+          <span id="deuce"></span>
+        </h1>
+        <p>Use the buttons below to keep score</p>
+
+        <label
+          >Playing To
+          <select name="" id="playto">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select></label
+        >
+      </div>
+      <div id="button-row">
+        <button id="p1">+1 Player One</button>
+        <button id="p2">+1 Player Two</button>
+        <button id="reset">Reset</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
