@@ -18,14 +18,14 @@ Two‑player table tennis scorekeeper, built from Colt Steele's tutorial **plus 
 - No frameworks – pure DOM manipulation
 
 ### Links
-- [Live Demo](https://your-demo-link.netlify.app) – *replace with your actual URL*
+- [Live Demo](https://pingpong-scorekeepr.netlify.app/)
 - [Source Code](./ping-pong-scorekeeper/)
 
 ## 🚀 How to Run Any Project Locally
 
 1. Clone the repo  
-   `git clone https://github.com/robotboy-exe/js-projects.git`
-2. Enter a project folder, e.g. `cd js-projects/pingpong-scorekeeper`
+   `git clone https://github.com/robotboy-exe/JavaScript-Projects.git`
+2. Enter a project folder, e.g. `cd JavaScript-Projects/ping-pong-scorekeeper`
 3. Open `index.html` in any browser (no build step required).
 
 *(More coming as I keep learning.)*
